@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 
 const demoProfile = {
-  name: 'Alex Morgan',
+  name: 'Rahul Chavan',
   role: 'AI Application Developer',
   location: 'Bengaluru, India',
   availability: 'Open to exciting opportunities',
   tagline: 'I turn complex AI capabilities into useful, human-centered products.',
   intro: 'I design and ship AI applications that feel as reliable as the software people already trust. From retrieval systems to agentic workflows, I care equally about model quality, product clarity, and the people using it.',
-  email: 'hello@alexmorgan.dev',
+  email: 'hello@rahulchavan.dev',
   resumeUrl: '#contact',
   github: 'https://github.com/',
   linkedin: 'https://www.linkedin.com/',
