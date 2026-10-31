@@ -1,6 +1,7 @@
 node_modules/
 frontend/.npm-cache/
 frontend/dist/
+frontend/.npm-cache/
 backend/.venv/
 __pycache__/
 *.py[cod]
