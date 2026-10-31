@@ -15,7 +15,7 @@ app = FastAPI(title="AI Developer Portfolio API", version="1.0.0")
 # During development, React runs on port 5173. In production set
 # CORS_ORIGINS to the comma-separated URL(s) of the deployed website.
 allowed_origins = os.getenv(
-    "CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173"
+    "CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173,https://ai-developer-portfolio-msmm.onrender.com",
 ).split(",")
 
 app.add_middleware(
@@ -27,13 +27,13 @@ app.add_middleware(
 )
 
 PROFILE = {
-    "name": "Alex Morgan",
+    "name": "Rahul Chavan",
     "role": "AI Application Developer",
     "location": "Bengaluru, India",
     "availability": "Open to exciting opportunities",
     "tagline": "I turn complex AI capabilities into useful, human-centered products.",
     "intro": "I design and ship AI applications that feel as reliable as the software people already trust. From retrieval systems to agentic workflows, I care equally about model quality, product clarity, and the people using it.",
-    "email": "hello@alexmorgan.dev",
+    "email": "hello@rahul.dev",
     "resumeUrl": "#contact",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/",
