@@ -39,7 +39,7 @@ const demoProfile = {
 }
 
 const navItems = ['About', 'Skills', 'Work', 'Experience', 'Contact']
-const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const apiUrl = import.meta.env.VITE_API_URL || 'hhttps://ai-portfolio-api-etzr.onrender.com'
 
 function Arrow({ diagonal = false }) {
   return <span aria-hidden="true" className={diagonal ? 'arrow diagonal' : 'arrow'}>→</span>
