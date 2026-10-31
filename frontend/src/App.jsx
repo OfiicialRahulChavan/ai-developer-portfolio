@@ -39,7 +39,7 @@ const demoProfile = {
 }
 
 const navItems = ['About', 'Skills', 'Work', 'Experience', 'Contact']
-const apiUrl = import.meta.env.VITE_API_URL || 'hhttps://ai-portfolio-api-etzr.onrender.com'
+const apiUrl = import.meta.env.VITE_API_URL || 'https://ai-portfolio-api-etzr.onrender.com'
 
 function Arrow({ diagonal = false }) {
   return <span aria-hidden="true" className={diagonal ? 'arrow diagonal' : 'arrow'}>→</span>
@@ -65,7 +65,7 @@ function App() {
     <main>
       <div className="grain" aria-hidden="true" />
       <nav className="nav wrap">
-        <button className="brand" onClick={() => scrollTo('top')} aria-label="Back to top">AM<span>.</span></button>
+        <button className="brand" onClick={() => scrollTo('top')} aria-label="Back to top">RC<span>.</span></button>
         <div className={menuOpen ? 'nav-links open' : 'nav-links'}>
           {navItems.map((item) => <button key={item} onClick={() => scrollTo(item.toLowerCase())}>{item}</button>)}
         </div>
